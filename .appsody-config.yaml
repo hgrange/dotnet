@@ -1,0 +1,3 @@
+id: "20200728164646.68672203"
+project-name: dotnet
+stack: docker.io/hgrange/dotnet-api-server:0.1

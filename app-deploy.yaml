@@ -1,0 +1,14 @@
+apiVersion: appsody.dev/v1beta1
+kind: AppsodyApplication
+metadata:
+  creationTimestamp: null
+  name: dotnet
+spec:
+  applicationImage: dev.local/dotnet
+  createKnativeService: false
+  expose: true
+  service:
+    port: 8080
+    type: NodePort
+  stack: dotnet-api-server
+  version: 1.0.0
